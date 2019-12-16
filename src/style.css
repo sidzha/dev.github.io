@@ -1,0 +1,96 @@
+html {
+  color: #f9ffee;
+  background-color: #222831;
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Segoe UI Light', sans-serif;
+}
+
+.container {
+  padding: 2%;
+  width: 100%;
+  max-width: 600px;
+  background-color: #1f242c;
+  margin: 0 auto;
+}
+
+.new-comment-form label,
+input,
+textarea {
+  font-family: 'Segoe UI Light', sans-serif;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.list-group {
+  list-style: none;
+  padding: 0;
+}
+
+.comment {
+  background-color: #1a1d24;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.comment h3 {
+  margin-top: 0;
+  color: #dfa612;
+  font-size: 26px;
+}
+
+.comment-avatar {
+  height: 75px;
+  width: 75px;
+  border: 1px solid #efbb35;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.comment-time {
+  display: block;
+  text-align: right;
+  background-color: rgba(236, 198, 48, 0.1);
+  color: #efbb35;
+  border-radius: 5px;
+  padding: 5px;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.submit-button {
+  transition: ease 0.5s;
+  font-family: 'Segoe UI', sans-serif;
+  width: 125px;
+  height: 40px;
+  background-color: transparent;
+  border-width: 1px;
+  border-style: solid;
+  color: #f9ffee;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  transition: 0.1s ease;
+  border-style: hidden;
+  color: #1f242c;
+  background-color: #f9ffee;
+}
+
+.delete-button {
+  border-color: #e84279;
+  color: #e84279;
+}
+
+.delete-button:hover {
+  background-color: #e84279;
+}
